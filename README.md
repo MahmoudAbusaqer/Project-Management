@@ -3,11 +3,11 @@ Is a Web Application made in Spring Boot for managing employees tasks/projects, 
 and Integration Tests.
 
 Features:
-Add/Update/Delete Employee
-Add/Update/Delete Project
-Assign Employee(s) to a Project
-Track Employee(s) Project(s)
-Display Project Timeline chart
-Display Project Statuses chart
+Add/Update/Delete Employee.
+Add/Update/Delete Project.
+Assign Employee(s) to a Project.
+Track Employee(s) Project(s).
+Display Project Timeline chart.
+Display Project Statuses chart.
 
 Still under development, still need to add Spring AOP and Spring Security.
