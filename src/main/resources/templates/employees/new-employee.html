@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layouts :: header">
+<meta charset="UTF-8">
+<title>Home Page</title>
+</head>
+<body>
+	<div class="container">
+		<nav th:replace="layouts :: navbar"></nav>
+		<form action="/employees/save" method="post" th:object="${employee}">
+			<p>
+				First Name: <input type="text" th:field="${employee.firstName}">
+			</p>
+			<p>
+				Last Name: <input type="text" th:field="${employee.lastName}">
+			</p>
+			<p>
+				Email: <input type="email" th:field="${employee.email}">
+			</p>
+
+			<p>
+				<input type="submit" value="Submit">
+			</p>
+		</form>
+	</div>
+</body>
+</html>
